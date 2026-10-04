@@ -15,8 +15,8 @@ Two ROM files are in [`releases/`](https://github.com/Nikowoo/AWA-NES/releases).
 
 | ROM | CHR-RAM | Picture changes | Runs on |
 |---|---|---|---|
-| [`anxiety-32kb.nes`](releases/anxiety-nes-v2-32kb-chr.nes) **(recommended)** | 32 KB | Instant: the next picture is built off-screen and swapped in within one frame | Emulators (Mesen, FCEUX, Nestopia…), flash carts / repro boards with 32 KB CHR-RAM |
-| [`anxiety-8kb.nes`](releases/anxiety-nes-v1-8kb-chr.nes) | 8 KB | Streamed: big changes build up over several frames, block by block | Any MMC3 setup, including a stock TGROM-style 8 KB CHR-RAM board |
+| [`anxiety-32kb.nes`](releases/anxiety-32kb.nes) **(recommended)** | 32 KB | Instant: the next picture is built off-screen and swapped in within one frame | Emulators (Mesen, FCEUX, Nestopia…), flash carts / repro boards with 32 KB CHR-RAM |
+| [`anxiety-8kb.nes`](releases/anxiety-8kb.nes) | 8 KB | Streamed: big changes build up over several frames, block by block | Any MMC3 setup, including a stock TGROM-style 8 KB CHR-RAM board |
 
 ## Music
 If you would like to listen to the tracker files alone they are located in [`tracker/`](tracker/)
