@@ -11,7 +11,7 @@ Your progress (whatever act you reached) and the options are saved into the batt
 ![rooftop](https://file.garden/aejaU8l_-hvXF5j_/act3-rooftop.png) ![fight](https://file.garden/aejaU8l_-hvXF5j_/act1-fight.png) ![party](https://file.garden/aejaU8l_-hvXF5j_/act2-party.png)
 
 ## Download
-Two ROM files are in [`releases/`](releases/). Both play the exact same way, but they only differ in how the picture changes are shown.
+Two ROM files are in [`releases/`](https://github.com/Nikowoo/AWA-NES/releases). Both play the exact same way, but they only differ in how the picture changes are shown.
 
 | ROM | CHR-RAM | Picture changes | Runs on |
 |---|---|---|---|
