@@ -1,0 +1,7 @@
+   .. t000 S:act2c says 142 imgs 780 22s
+   .. t000 S:act3a_after says 279 imgs 1441 43s
+   .. t000 S:act4d says 399 imgs 1703 64s
+   .. t000 S:credits says 426 imgs 1753 70s
+t000 idle says 426 events 3536 new images 1753 logs 2 70.5s
+  eval error: SceneSetup.intermission(1) -> TypeError: window.localStorage.setItem is not a function
+  eval error: SceneSetup.intermission(2) -> TypeError: window.localStorage.setItem is not a function

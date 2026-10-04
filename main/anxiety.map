@@ -1,0 +1,162 @@
+Modules list:
+-------------
+main.o:
+    BSS               Offs=000000  Size=0003F7  Align=00001  Fill=0000
+    ZEROPAGE          Offs=000000  Size=000070  Align=00001  Fill=0000
+    HEADER            Offs=000000  Size=000010  Align=00001  Fill=0000
+    VECTORS           Offs=000000  Size=000006  Align=00001  Fill=0000
+    FIXED             Offs=000000  Size=002C3B  Align=00001  Fill=0000
+    WRAM              Offs=000000  Size=001CBF  Align=00001  Fill=0000
+    BANK61            Offs=000000  Size=000E24  Align=00001  Fill=0000
+    SAVE              Offs=000000  Size=000115  Align=00001  Fill=0000
+    BANK52            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK53            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK54            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK55            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK56            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK57            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK58            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK00            Offs=000000  Size=001C00  Align=00001  Fill=0000
+    BANK01            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK02            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK03            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK04            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK05            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK06            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK07            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK08            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK09            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK10            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK11            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK12            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK13            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK14            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK15            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK16            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK17            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK18            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK19            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK20            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK21            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK22            Offs=000000  Size=001850  Align=00001  Fill=0000
+    BANK23            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK24            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK25            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK26            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK27            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK28            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK29            Offs=000000  Size=001E38  Align=00001  Fill=0000
+    BANK30            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK31            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK32            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK33            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK34            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK35            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK36            Offs=000000  Size=0017D0  Align=00001  Fill=0000
+    BANK37            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK38            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK39            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK40            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK41            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK42            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK43            Offs=000000  Size=001E20  Align=00001  Fill=0000
+    BANK44            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK45            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK46            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK47            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK48            Offs=000000  Size=002000  Align=00001  Fill=0000
+    BANK49            Offs=000000  Size=000C50  Align=00001  Fill=0000
+    BANK51            Offs=000000  Size=00183F  Align=00001  Fill=0000
+    BANK50            Offs=000000  Size=001FB0  Align=00001  Fill=0000
+    BANK59            Offs=000000  Size=0011C4  Align=00001  Fill=0000
+    DPCM              Offs=000000  Size=0005E1  Align=00040  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+HEADER                000000  00000F  000010  00001
+ZEROPAGE              000000  00006F  000070  00001
+BSS                   000300  0006F6  0003F7  00001
+WRAM                  006000  007CBE  001CBF  00001
+SAVE                  007CBF  007DD3  000115  00001
+BANK52                008000  009FFF  002000  00001
+BANK53                008000  009FFF  002000  00001
+BANK54                008000  009FFF  002000  00001
+BANK55                008000  009FFF  002000  00001
+BANK56                008000  009FFF  002000  00001
+BANK57                008000  009FFF  002000  00001
+BANK58                008000  009FFF  002000  00001
+BANK61                008000  008E23  000E24  00001
+BANK00                00A000  00BBFF  001C00  00001
+BANK01                00A000  00BFFF  002000  00001
+BANK02                00A000  00BFFF  002000  00001
+BANK03                00A000  00BFFF  002000  00001
+BANK04                00A000  00BFFF  002000  00001
+BANK05                00A000  00BFFF  002000  00001
+BANK06                00A000  00BFFF  002000  00001
+BANK07                00A000  00BFFF  002000  00001
+BANK08                00A000  00BFFF  002000  00001
+BANK09                00A000  00BFFF  002000  00001
+BANK10                00A000  00BFFF  002000  00001
+BANK11                00A000  00BFFF  002000  00001
+BANK12                00A000  00BFFF  002000  00001
+BANK13                00A000  00BFFF  002000  00001
+BANK14                00A000  00BFFF  002000  00001
+BANK15                00A000  00BFFF  002000  00001
+BANK16                00A000  00BFFF  002000  00001
+BANK17                00A000  00BFFF  002000  00001
+BANK18                00A000  00BFFF  002000  00001
+BANK19                00A000  00BFFF  002000  00001
+BANK20                00A000  00BFFF  002000  00001
+BANK21                00A000  00BFFF  002000  00001
+BANK22                00A000  00B84F  001850  00001
+BANK23                00A000  00BFFF  002000  00001
+BANK24                00A000  00BFFF  002000  00001
+BANK25                00A000  00BFFF  002000  00001
+BANK26                00A000  00BFFF  002000  00001
+BANK27                00A000  00BFFF  002000  00001
+BANK28                00A000  00BFFF  002000  00001
+BANK29                00A000  00BE37  001E38  00001
+BANK30                00A000  00BFFF  002000  00001
+BANK31                00A000  00BFFF  002000  00001
+BANK32                00A000  00BFFF  002000  00001
+BANK33                00A000  00BFFF  002000  00001
+BANK34                00A000  00BFFF  002000  00001
+BANK35                00A000  00BFFF  002000  00001
+BANK36                00A000  00B7CF  0017D0  00001
+BANK37                00A000  00BFFF  002000  00001
+BANK38                00A000  00BFFF  002000  00001
+BANK39                00A000  00BFFF  002000  00001
+BANK40                00A000  00BFFF  002000  00001
+BANK41                00A000  00BFFF  002000  00001
+BANK42                00A000  00BFFF  002000  00001
+BANK43                00A000  00BE1F  001E20  00001
+BANK44                00A000  00BFFF  002000  00001
+BANK45                00A000  00BFFF  002000  00001
+BANK46                00A000  00BFFF  002000  00001
+BANK47                00A000  00BFFF  002000  00001
+BANK48                00A000  00BFFF  002000  00001
+BANK49                00A000  00AC4F  000C50  00001
+BANK50                00A000  00BFAF  001FB0  00001
+BANK51                00A000  00B83E  00183F  00001
+BANK59                00A000  00B1C3  0011C4  00001
+FIXED                 00C000  00EC3A  002C3B  00001
+DPCM                  00EC40  00F220  0005E1  00040
+VECTORS               00FFFA  00FFFF  000006  00001
+
+
+Exports list by name:
+---------------------
+
+
+
+Exports list by value:
+----------------------
+
+
+
+Imports list:
+-------------
+
